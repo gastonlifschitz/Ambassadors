@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content
+  .header
+    h4.title.
+      ¡Bienvenido a la comunidad de embajadores!
+      <hr/>
+  
+    p.message Hola #{subscriber.user.firstName},
+
+    p.message ¡Gracias por sumarte a nuestra comunidad de embajadores!
+
+    p.message Te notificaremos sobre todas las novedades a través de este medio.
+
+    p.message ¡Muchas gracias y saludos!
+
+  include footer.pug

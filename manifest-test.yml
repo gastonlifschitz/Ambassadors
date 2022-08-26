@@ -1,0 +1,8 @@
+  applications:
+  - name: ambassadors-test
+    buildpacks:
+      - sdk-for-nodejs
+    command: npm start
+    path: .
+    memory: 512M
+    instances: 1

@@ -1,0 +1,20 @@
+{
+    "notFound": "404 - Página no encontrada",
+
+    "noConnection": "Parece que no tenés conexión.",
+    "tryLater": "Intentá nuevamente más tarde.",
+
+    "notFoundEvent": "Evento no encontrado.",
+    "explanationNotFoundEvent": "Puede que el embajador haya borrado el evento o que el link del evento sea incorrecto.",
+
+    "notApproved": "El evento no fue aprobado.",
+    "contactUs": "Por favor, ponete en contacto con las administradoras para que te indiquen cómo seguir.",
+
+    "notFinished": "¡Este evento aún no finalizó!",
+    "comeBackLater": "Volvé a entrar al terminar el evento para poder completarlo.",
+
+    "alreadyCompleted": "¡Este evento ya fue completado!",
+
+    "notAuthorized": "¡No deberías estar en esta página!",
+    "notOwned": "No sos el embajador del evento."
+}

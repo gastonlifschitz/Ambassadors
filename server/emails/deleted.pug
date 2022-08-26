@@ -1,0 +1,13 @@
+extends layout.pug
+
+block content
+  .header
+    h4.title.
+      Evento eliminado - <span class='event-title'>#{event.name}</span>
+      <hr/>
+
+    h4.message #{event.owner.firstName} eliminó su evento <a class="blue-link" href='#{link}/event/#{event.id}'>#{event.name}</a>
+
+    p.message Contacto: #{event.owner.email}
+    
+  include footer.pug

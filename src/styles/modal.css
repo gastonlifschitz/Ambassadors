@@ -1,0 +1,15 @@
+.modal {
+  top: 14%;
+  outline: none;
+}
+
+.review-modal {
+  top: 5%;
+  outline: none;  
+}
+
+.modal-content {
+  border: 0px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0,0.5);
+}
+

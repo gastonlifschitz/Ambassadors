@@ -1,0 +1,84 @@
+ /* The snackbar - position it at the bottom and in the middle of the screen */
+ .snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  color: #1b1e21;
+  background-color: #d6d8d9;
+  border: 2px solid #c6c8ca;
+  text-align: center; 
+  border-radius: .2em; 
+  padding: 16px; 
+  z-index: 9; 
+  bottom: 30px; 
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.snackbar.success {
+  color: #24A249;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.snackbar.primary {
+  color: #054ADA;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+
+.snackbar.secondary {
+  color: #3D3D3D;
+  background-color: #e2e3e5;
+  border-color: #d6d8db;
+}
+
+.snackbar.danger {
+  color: #4F0408;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.snackbar.warning {
+  color: #FDD13A;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+.snackbar.info {
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+}
+
+.snackbar.light {
+  color: #818182;
+  background-color: #fefefe;
+  border-color: #fdfdfe;
+}
+
+.snackbar.dark {
+  color: #1b1e21;
+  background-color: #d6d8d9;
+  border-color: #c6c8ca;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+} 

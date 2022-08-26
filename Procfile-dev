@@ -1,0 +1,2 @@
+api: nodemon --ignore 'server/tests/**' --ignore 'src/**' --ignore 'public/**' -q server/server.js
+web: react-scripts start

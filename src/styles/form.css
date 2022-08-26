@@ -1,0 +1,72 @@
+.kits-link {
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+.kits-link a {
+  padding-left: 5px;
+}
+
+.form-control {
+  border-radius: 0 !important;
+}
+
+.was-validated .form-control:valid,
+.form-control.is-valid,
+.was-validated .custom-select:valid,
+.custom-select.is-valid {
+  border-color: inherit;
+}
+
+.was-validated .form-control:valid:focus,
+.form-control.is-valid:focus,
+.was-validated .custom-select:valid:focus,
+.custom-select.is-valid:focus {
+  border-color: inherit;
+}
+
+.other-input {
+  margin-top: .5em;
+}
+
+.sub {
+  border-radius: 0;
+}
+
+.char-limit {
+  font-size: 15.4px;
+  color: rgba(#495057, .4);
+  padding-left: 6px;
+}
+
+.form-title {
+  margin: 22px 2px 20px;
+  color: #252525;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.form-label {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.form-input {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.form-back {
+  margin-top: 1.2em;
+  margin-right: 0.5em;
+  font-size: 1.3em;
+}
+
+.back-col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.form-padding {
+  padding-top: 10px;
+}

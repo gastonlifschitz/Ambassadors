@@ -1,0 +1,15 @@
+extends layout.pug
+
+block content
+  .header
+    h4.title.
+      Evento completado - <span class='event-title'>#{event.name}</span>
+      <hr/>
+
+    p.message El evento <span class='event-title'>#{event.name}</span> fue completado.
+
+    h4.ambassador Feedback del embajador: <br/> <span class='human-message'>#{message}</span>
+
+    p.message <a class="blue-link" href="#{link}/event/#{event.id}">Ver evento</a>
+
+  include footer.pug

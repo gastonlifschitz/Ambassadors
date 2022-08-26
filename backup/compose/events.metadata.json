@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"compose.events"}],"uuid":"f618774e01d745e58f4784e04cbb3ca5"}

@@ -1,0 +1,22 @@
+extends layout.pug
+
+block content
+  .header
+    h4.title.
+      Evento finalizado - <span class='event-title'>#{event.name}</span>
+      <hr/>
+
+    p.message Hola #{event.owner.firstName},
+
+    p.message ¿Cómo te fue con tu evento <span class='event-title'>#{event.name}</span>?
+    
+    p.message Contanos tu experiencia ingresando <a class="blue-link" href="#{link}/event/complete/#{event.id}">aquí</a>. Para nosotros es muy importante recibir tu feedback y sólo te tomará unos pocos minutos.
+
+    p.message Tu evento aparecerá en la lista <strong>Finalizados</strong> de la página principal una vez que completes los datos.
+    
+    p.message Recordá que podés cargar tus horas de voluntariado en <a class="blue-link" href="https://www.ibm.com/volunteers/home.wss">IBM Volunteers</a>.
+      
+    p.message ¡Muchas gracias y saludos!
+
+  include footer.pug
+      

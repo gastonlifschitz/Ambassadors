@@ -1,0 +1,129 @@
+{
+    "_id": "5b0e9dd0cfa1dd0143ec1695",
+    "location": {
+        "institution": "WC",
+        "address": "Tel Aviv, 2025",
+        "_id": "5b119b8ebb8c3c07d4b24e3f"
+    },
+    "name": "Argentina - Israel",
+    "date": "2018-06-11T10:00:00.000Z",
+    "assistants": {
+        "expected": 60000,
+        "_id": "5b119b8ebb8c3c07d4b24e40"
+    },
+    "description": "Argentina vs Israel para el partido más importante de la historia!",
+    "owner": {
+        "firstName": "Tomas",
+        "lastName": "Cerda",
+        "email": "tomas.cerda@ibm.com",
+        "_id": "063392613",
+        "fullName": "Tomas Cerda",
+        "uid": "063392613",
+        "id": "063392613"
+    },
+    "__v": 2,
+    "speakers": [],
+    "notifications": [{
+            "tag": "creation",
+            "author": {
+                "firstName": "Tomas",
+                "lastName": "Cerda",
+                "email": "tomas.cerda@ibm.com",
+                "_id": "063392613",
+                "fullName": "Tomas Cerda",
+                "uid": "063392613",
+                "id": "063392613"
+            },
+            "_id": "5b0e9dd0cfa1dd0143ec1696",
+            "timestamp": "2018-05-30T12:49:20.457Z"
+        },
+        {
+            "tag": "revision",
+            "author": {
+                "firstName": "Tomas",
+                "lastName": "Cerda",
+                "email": "tomas.cerda@ibm.com",
+                "_id": "063392613",
+                "fullName": "Tomas Cerda",
+                "uid": "063392613",
+                "id": "063392613"
+            },
+            "description": "Esta todo para el orto pelotudo\n",
+            "_id": "5b0ea069cfa1dd0143ec169d",
+            "timestamp": "2018-05-30T13:00:25.569Z"
+        },
+        {
+            "tag": "edit",
+            "author": {
+                "firstName": "Tomas",
+                "lastName": "Cerda",
+                "email": "tomas.cerda@ibm.com",
+                "_id": "063392613",
+                "fullName": "Tomas Cerda",
+                "uid": "063392613",
+                "id": "063392613"
+            },
+            "_id": "5b0ea0c9cfa1dd0143ec16b0",
+            "timestamp": "2018-05-30T13:02:01.132Z"
+        },
+        {
+            "tag": "approval",
+            "author": {
+                "firstName": "Tomas",
+                "lastName": "Cerda",
+                "email": "tomas.cerda@ibm.com",
+                "_id": "063392613",
+                "fullName": "Tomas Cerda",
+                "uid": "063392613",
+                "id": "063392613"
+            },
+            "description": "Capo, ahora si",
+            "_id": "5b0ea0d5cfa1dd0143ec16b9",
+            "timestamp": "2018-05-30T13:02:13.618Z"
+        },
+        {
+            "tag": "edit",
+            "author": {
+                "firstName": "Tomas",
+                "lastName": "Cerda",
+                "email": "tomas.cerda@ibm.com",
+                "_id": "063392613",
+                "fullName": "Tomas Cerda",
+                "uid": "063392613",
+                "id": "063392613"
+            },
+            "_id": "5b0ebbe787f46703f5d2bf35",
+            "timestamp": "2018-05-30T14:57:43.405Z"
+        },
+        {
+            "tag": "edit",
+            "author": {
+                "firstName": "Tomas",
+                "lastName": "Cerda",
+                "email": "tomas.cerda@ibm.com",
+                "_id": "063392613",
+                "fullName": "Tomas Cerda",
+                "uid": "063392613",
+                "id": "063392613"
+            },
+            "_id": "5b119741d208d9052fd36551",
+            "timestamp": "2018-06-01T18:58:09.232Z"
+        },
+        {
+            "tag": "edit",
+            "author": {
+                "firstName": "Tomas",
+                "lastName": "Cerda",
+                "email": "tomas.cerda@ibm.com",
+                "_id": "063392613",
+                "fullName": "Tomas Cerda",
+                "uid": "063392613",
+                "id": "063392613"
+            },
+            "_id": "5b119b8ebb8c3c07d4b24e3e",
+            "timestamp": "2018-06-01T19:16:30.293Z"
+        }
+    ],
+    "state": "approved",
+    "id": "5b0e9dd0cfa1dd0143ec1695"
+}

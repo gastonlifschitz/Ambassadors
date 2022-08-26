@@ -1,0 +1,21 @@
+extends layout.pug
+
+block content
+  .header
+    h4.title.
+      Evento aprobado - <span class='event-title'>#{event.name}</span>
+      <hr/>
+
+    p.message Hola #{event.owner.firstName},
+
+    p.message Tu evento <span class='event-title'>#{event.name}</span> fue aprobado exitosamente. Se muestra en la lista de <strong>Próximos</strong> de la página principal donde otros embajadores podrán verlo.
+    
+    p.message El comentario de las embajadoras al aprobar el evento fue: <br/> <span class='human-message'>#{message}</span>
+      
+    p.message Te enviaremos una notificación cuando haya terminado el evento para que nos cuentes cómo fue.
+    
+    p.message ¡Muchas gracias y saludos! 
+
+  include footer.pug
+
+    

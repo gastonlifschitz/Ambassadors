@@ -1,0 +1,15 @@
+.page-error-message {
+  background-color: #fafafa;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #5d5d5d; 
+  text-align: center;
+}
+
+h1.page-error-message {
+  font-size: 1.8em;
+  padding-top: 6em;
+}
+
+h2.page-error-message {
+  font-size: 1.2em;
+}

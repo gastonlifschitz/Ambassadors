@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+  .header
+    h4.title.
+      Revisar evento - <span class='event-title'>#{event.name}</span>
+      <hr/>
+
+    p.message Hola #{event.owner.firstName},
+
+    p.message Tu evento <span class='event-title'>#{event.name}</span> necesita más información. 
+
+    p.message Observación de las administradoras: <br/> <span class='human-message'>#{message}</span>
+      
+    p.message Te pedimos por favor que edites tu evento ingresando <a class="blue-link" href='#{link}/edit/#{event.id}'>aquí</a>.
+
+    p.message ¡Muchas gracias y saludos!
+
+  include footer.pug

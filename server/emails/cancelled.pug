@@ -1,0 +1,13 @@
+extends layout.pug
+
+block content
+  .header
+    h4.title.
+      Evento cancelado - <span class='event-title'>#{event.name}</span>
+      <hr/>
+
+    p.message #{event.owner.firstName} canceló su evento <span class="event-title">#{event.name}</span>.
+    
+    p.message Comentario del embajador al cancelar evento: <br/> <span class='human-message'>#{message}</span>
+
+  include footer.pug

@@ -1,0 +1,29 @@
+extends layout.pug
+
+mixin event-card(event)
+  a.event-card(href=`${link}/event/${event.id}`)
+    .calendar-container
+      .mini-calendar
+        .date-number #{event.dateNumber}
+        .date-month.text-uppercase #{event.dateMonth}
+    .names-container
+      .event-title #{event.name}
+      .card-event-owner.am-name #{event.owner.fullName}
+    .location-container
+      .location #{event.location.institution}
+  
+    
+
+
+block content
+  .header
+    h4.title.
+      Enterate de los próximos eventos
+      <hr/>
+
+    p.message Si hay algún evento que te interese ¡animate y sumate!
+
+    .events-list
+      each event in events
+        +event-card(event)
+include footer.pug

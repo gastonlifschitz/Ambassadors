@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+  .header
+    h4.title.
+      Evento creado - <span class='event-title'>#{event.name}</span>
+      <hr/>
+
+    p.message Hola #{event.owner.firstName},
+    
+    p.message ¡Gracias por crear el evento <span class='event-title'>#{event.name}</span>! Te avisaremos cuando sea aprobado.
+
+    p.message Desde <a class="blue-link" href='#{link}/event/#{event.id}'>aquí</a> podés ver tu evento y editarlo si lo creés necesario. También podés acceder desde la lista <strong>Mis eventos</strong> de la página principal. Una vez que el evento esté aprobado aparecerá en la lista <strong>Próximos</strong> de la página principal.
+      
+    p.message Es posible que recibas nuevos avisos en caso de que sea necesario que realices cambios al evento.
+
+    p.message ¡Muchas gracias y saludos!
+    
+  include footer.pug

@@ -1,0 +1,193 @@
+.sections-row .nav-links {
+  margin: .2em 0 1.4em;
+}
+
+.sections-row .am-link {
+  font-size: 1.2em;
+  padding: 0;
+  margin-right: 1em;
+}
+
+.sections-row .am-link .badge {
+  border-radius: 50%;
+  background-color: #a5a5a5;
+  font-size: 0.65em;
+  margin-left: 3px;
+}
+
+.sections-row .am-link.active .badge {
+  background-color: #009E9A !important;
+  font-weight: 200;
+}
+
+.sections-row .am-link:hover .badge {
+  background-color: rgb(0, 124, 120) !important;
+  font-weight: 200;
+}
+
+.am-link.active {
+  color: #5d5d5d !important;
+  border-bottom: 1px dotted #5d5d5d;
+  padding-bottom: 3px;
+}
+
+.am-link-teal.active {
+  color: #008673 !important;
+  border-bottom: 1px dotted #008673;
+  padding-bottom: 3px; 
+}
+
+.events-flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.card-row {
+  padding: 0 .54em;
+}
+
+.event-card .card-body {
+  padding: 1.2em;
+}
+
+.event-card {
+  width: 36em;
+  max-width: 36em;
+  height: 14.8em;
+  margin: .6em .4em;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px 1px rgba(204, 204, 204, 0.2);
+}
+
+@media only screen and (max-width: 600px) {
+  .event-card {  
+    width: 80%;
+  }
+}
+
+.full-date{
+  font-size: 14px;
+}
+
+.event-card .event-title {
+  font-weight: 500;
+  line-height: 1.2em;
+  color: #3D3D3D;
+  font-size: 1.24em;
+  margin-top: 0.3em;
+  display: inline-block;
+}
+
+.event-card .event-title:hover {
+  color: #4e91e4;
+  transition: ease-out 0.2s all;
+}
+
+.event-card .event-description {
+  margin-top: 1.5em;
+  line-height: 1.1em;
+}
+
+.event-card .assistants-row {
+  margin-top: 1em;
+}
+
+.event-card .lnr {
+  font-size: 1.2em;
+  vertical-align: text-bottom;
+}
+
+.event-card .card-icon {
+  margin-right: 10px;
+}
+
+.event-card .needs-completion-badge {
+  width: 100%; 
+  padding: 0;
+  text-transform: uppercase;
+  background-color: #009E9A !important
+}
+
+.mini-calendar {
+  padding: 0.5em 0.7em;  
+  border-radius: 6px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f4f4f4;
+  line-height: 1em;
+}
+
+.mini-calendar .date-number {
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: 600;
+  color: #3D3D3D;
+}
+
+.mini-calendar .date-month {
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #3D3D3D;
+}
+
+.location-col, .assistants-col {
+  font-size: 0.9em;
+}
+
+.location-col .bold, .assistants-col .bold {
+  color: #3D3D3D;
+}
+
+.event-card .location-item {
+  margin-bottom: 1em;
+}
+
+.zrp {
+  height: 10em;
+  padding-top: 1em;
+}
+
+.zrp h6 {
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+.subscriber-modal .modal-body {
+  padding: 1.5em;
+  color: #252525;
+}
+
+.subscriber-modal h3 {
+  font-size: 28px;
+  text-align: center;
+  margin: 0 0 1em;
+  font-weight: 500;
+}
+
+.subscriber-modal h6 {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.subscriber-modal label {
+  font-weight: 500;
+  margin-top: 0.5em;
+}
+
+.faq-banner {
+  margin-top: 1em;
+}

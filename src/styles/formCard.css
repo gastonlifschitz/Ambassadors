@@ -1,0 +1,19 @@
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.form-card {
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px 1px rgba(204, 204, 204, 0.5);
+}
+
+.form-card .form-card-body {
+  padding: 2.5em;
+}

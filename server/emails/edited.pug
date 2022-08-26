@@ -1,0 +1,11 @@
+extends layout.pug
+
+block content
+  .header
+    h4.title.
+      Evento editado - <span class='event-title'>#{event.name}</span>
+      <hr/>
+
+    p.message El evento <a class="blue-link" href='#{link}/event/#{event.id}'>#{event.name}</a> fue editado.
+
+  include footer.pug

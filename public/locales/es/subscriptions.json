@@ -1,0 +1,15 @@
+{
+    "firstSteps": "Antes necesitamos que nos cuentes algo de vos. Así podremos informarte sobre eventos que sean de tu interés.",
+    "skills": "Skills",
+    "interests": "Intereses",
+    "skillsPlaceholder": "¿A qué te dedicas? ¿Qué hacés en el día a día? ¿En qué áreas tenés experiencia?",
+    "interestsPlaceholder": "¿Cuáles son tus hobbies? ¿Sobre qué te gustaría aprender? ¿Qué te apasiona?",
+    "skillsRequired": "Skills requeridos",
+    "interestsRequired": "Intereses requeridos",
+    "subscribe": "¿Querés ser embajador/a?",
+    "join": "Sumarme",
+    "wantToBe": "¿Querés ser embajador/a?",
+    "getAllUpdates": "Enterate de las últimas noticias de la comunidad de embajadores.",
+    "subscribeFeedback": "Ahora sos parte de la comunidad ¡Muchas gracias por sumarte!",
+    "subscribeError": "Ha habido un error. Intentalo nuevamente más tarde."
+}

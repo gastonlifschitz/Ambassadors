@@ -1,0 +1,135 @@
+.back-link {
+  margin: 1.2em 0;
+  color: #A4A4A4;
+  font-weight: 300;
+}
+
+.event-info-card {
+  font-size: .92em;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #3D3D3D;
+  box-shadow: 0 0 5px 1px rgba(204, 204, 204, 0.5);
+}
+
+.event-info-card .card-body {
+  padding: 2.2em;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.event-info-card .info-row {
+  margin-bottom: 2em;
+}
+
+.event-title {
+  font-size: 2.88em;
+  font-weight: 500;
+  line-height: 1.2em;
+  color: #3D3D3D;
+}
+
+.event-owner {
+  font-weight: 300;
+  margin-top: 1.5em;
+}
+
+.collabs-title {
+  margin: 1.5em 0 0.25em 0;
+  font-size: 1.2em;
+}
+
+.speaker-card {
+  margin: 6px 0;
+}
+
+.speaker-card .text-holder {
+  display: flex;
+  width: 11.5em;
+}
+
+.details-title {
+  margin-top: 2.5em;
+  font-size: 1.2em;
+  color: #3D3D3D;
+  font-weight: 500;
+}
+
+.details {
+  margin-top: 1em;
+  font-weight: 300;
+  white-space: pre-wrap;
+}
+
+.approval-buttons {
+  margin-bottom: 1em;
+}
+
+.edit-button-row {
+  margin-top: 1em;
+}
+
+.edit-button-row .edit-button {
+  margin-bottom: 10px;
+}
+
+.delete-link {
+  margin-top: 5px 0;
+  padding: 0;
+  color: #a2a2a2 !important;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.delete-link:hover, .delete-link:focus {
+  color: #c82333 !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.notification-list {
+  margin-top: 1.5em;
+}
+
+.notification {
+  font-size: 0.9em;
+  font-weight: 300;
+  margin: 2px 0;
+}
+
+.notification .icon {
+  margin-right: 6px;
+  color: #4e91e4;
+}
+
+.notification .tag-name {
+  font-weight: 400;
+  margin-right: 4px;
+  width: 7em;
+  display: inline-block;
+}
+
+.notification .timestamp {
+  font-size: 0.8em;
+  margin-right: 1em;
+  width: 10em;
+  display: inline-block;
+}
+
+.notification .lnr-user {
+  margin-right: 3px;
+}
+
+.notification .author {
+  font-weight: 500;
+}
+
+.notification .description {
+  font-size: 0.9em;
+  margin-left: 1.7em;
+  margin-bottom: 4px;
+  display: inline-block;
+  white-space: pre-wrap;
+}

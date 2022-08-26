@@ -1,0 +1,61 @@
+{
+    "back": "Volver",
+    "backEvent": "Volver al evento",
+    "backList": "Volver al listado",
+
+    "eventName": "Nombre del evento",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Email",
+    "ibmEmail": "Mail de IBM",
+
+    "institution": "Institución",
+    "address": "Dirección",
+
+
+    "assistants": "Cantidad de asistentes",
+
+    "category": "Categoría",
+
+    "date": "Fecha",
+    "time": "Hora",
+    "datePlaceholder": "Seleccionar fecha",
+
+    "description": "Descripción",
+    "descriptionPlaceholder": "Contanos algo del evento",
+
+    "submitCreate": "Crear evento",
+    "submitEdit": "Guardar cambios",
+
+    "submittingCreate": "Creando",
+    "submittingEdit": "Editando",
+
+    "invalid": "inválido",
+    "required": "requerido",
+    "requiredPlural": "requeridos",
+    "requiredFem": "requerida",
+
+    "createEvent": "Crear evento",
+    "editEvent": "Editar evento",
+    "aproximate": "Aproximado",
+
+    "submitConnectionError": "Ha habido un error de conexión, vuelve a intentarlo más tarde.",
+
+    "finish": "Terminar",
+    "completeEvent": "Completar evento",
+    "completeEventData": "Completar datos de: {{name}}",
+    "done": "Realizado",
+    "notDone": "Cancelado",
+    "actualAssistants": "Cantidad de asistentes finales",
+    "eventCommentary": "Comentario sobre el evento",
+    "eventCommentaryPlaceholder": "Contanos sobre el contenido dado, el feedback recibido, cómo te sentiste facilitando el evento...",
+    "eventNotDonePlaceholder": "Contanos por qué el evento debió ser cancelado...",
+
+    "addImages": "Agregá imágenes en Box:",
+    "addImagesExplain": "Podés agregarlas en el siguiente repositorio Box",
+    "boxHelp": "Tocá en 'Unirme a la carpeta' para poder agregar tus fotos.",
+    "addSpeakers": "Agregá a otros embajadores que participaron (opcional)",
+    "addSpeaker": " Agregar embajador",
+    "speakerFirstName": "Nombre del participante",
+    "speakerLastName": "Apellido del participante"
+}

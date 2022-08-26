@@ -1,0 +1,15 @@
+extends layout.pug
+
+block content
+  .header
+    h4.title.
+      El evento <span class='event-title'>#{event.name}</span> fue creado
+      <hr/>
+
+    h4.ambassador Embajador:
+    p.name #{event.owner.fullName}
+    p.name #{event.owner.email}
+    p.message Desde <a class="blue-link" href='#{link}/event/#{event.id}'>aquí</a> podrán aprobarlo o enviarlo a revisión.
+
+  include footer.pug
+    
